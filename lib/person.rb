@@ -5,7 +5,7 @@ class Person
   
   def initialize(attributes=nil)
     if attributes
-      attributes.
+      attributes.each {|key, value| }
   end
 
 
